@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EAEAEA;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background: #2F4858;
+    width: 50%;
+    border-radius: 0.8rem;
+}
+
+h1{
+    color: #EAEAEA;
+    padding: 1rem;
+    font-size: 3.5rem;
+}
+
+.countdowns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    
+}
+
+h2{
+    font-size: 3.5rem;
+    color: #EAEAEA;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.3rem;
+    color: #EAEAEA;
+}
